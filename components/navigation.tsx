@@ -28,7 +28,7 @@ export function Navigation() {
               Submissions
             </Link>
             <Button size="sm" className="uppercase tracking-wider">
-              Get Tickets
+              Become Member
             </Button>
           </div>
 
@@ -64,7 +64,7 @@ export function Navigation() {
                 Submissions
               </Link>
               <Button size="sm" className="uppercase tracking-wider w-full">
-                Get Tickets
+                Become Member
               </Button>
             </div>
           </div>

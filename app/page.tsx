@@ -36,7 +36,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base uppercase tracking-wider px-8 py-6">
-                Get Tickets
+                Become Member
               </Button>
               <Link href="/program">
                 <Button
@@ -214,7 +214,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Button size="lg" variant="outline" className="uppercase tracking-wider bg-transparent px-8">
-                Get Tickets
+                Become Member
               </Button>
             </div>
           </div>
