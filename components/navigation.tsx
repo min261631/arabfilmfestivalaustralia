@@ -17,19 +17,28 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             <Link href="/about" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
               About
             </Link>
             <Link href="/program" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
               Program
             </Link>
+            <Link href="/tickets" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+              Tickets
+            </Link>
+            <Link href="/awards" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+              Awards
+            </Link>
             <Link href="/submissions" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
               Submissions
             </Link>
-            <Button size="sm" className="uppercase tracking-wider">
-              Become Member
-            </Button>
+            <Link href="/news" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+              News
+            </Link>
+            <Link href="/contact" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+              Contact
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -57,15 +66,40 @@ export function Navigation() {
                 Program
               </Link>
               <Link
+                href="/tickets"
+                className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Tickets
+              </Link>
+              <Link
+                href="/awards"
+                className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Awards
+              </Link>
+              <Link
                 href="/submissions"
                 className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Submissions
               </Link>
-              <Button size="sm" className="uppercase tracking-wider w-full">
-                Become Member
-              </Button>
+              <Link
+                href="/news"
+                className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                News
+              </Link>
+              <Link
+                href="/contact"
+                className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Contact
+              </Link>
             </div>
           </div>
         )}
