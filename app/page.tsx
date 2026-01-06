@@ -18,22 +18,12 @@ export default function Home() {
         <div className="container mx-auto px-4 py-32 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif font-light mb-8 leading-none text-balance">
-              Arab Film Festival of Australia
+              International Arab Film Festival of Australia
             </h1>
             <div className="flex items-center justify-center gap-6 mb-10 text-xl md:text-2xl">
-              <span className="flex items-center gap-2">
-                <Calendar size={24} />
-                November 2025
-              </span>
-              <span>•</span>
-              <span className="flex items-center gap-2">
-                <MapPin size={24} />
-                Sydney & Melbourne
-              </span>
+
             </div>
-            <p className="text-2xl md:text-3xl mb-16 leading-relaxed text-balance max-w-4xl mx-auto font-light">
-              Celebrating the richness, diversity, and power of Arab storytelling through cinema
-            </p>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base uppercase tracking-wider px-8 py-6">
                 Become Member
@@ -205,7 +195,7 @@ export default function Home() {
             <h2 className="text-5xl md:text-6xl font-serif font-light mb-8 text-balance">Be Part of the Story</h2>
             <p className="text-xl text-muted-foreground leading-relaxed mb-12">
               Whether you're a filmmaker looking to showcase your work or a cinema lover eager to explore new
-              perspectives, the Arab Film Festival of Australia welcomes you.
+              perspectives, the International Arab Film Festival of Australia welcomes you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/submissions">

@@ -16,7 +16,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Arab Film Festival of Australia 2025",
+  title: "International Arab Film Festival of Australia 2025",
   description: "Celebrating Arab cinema in Australia - November 2025",
   generator: "v0.app",
   icons: {

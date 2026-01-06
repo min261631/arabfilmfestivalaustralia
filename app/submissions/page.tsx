@@ -40,7 +40,7 @@ export default function SubmissionsPage() {
               <div>
                 <h2 className="text-4xl font-serif font-light mb-8">Call for Submissions: 2025</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  The Arab Film Festival of Australia invites filmmakers from around the world to submit their work for
+                  The International Arab Film Festival of Australia invites filmmakers from around the world to submit their work for
                   consideration in our 2025 edition. We are seeking bold, innovative, and compelling films that showcase
                   the diversity and depth of Arab cinema.
                 </p>
@@ -273,7 +273,7 @@ export default function SubmissionsPage() {
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-4xl font-serif font-light mb-6">Ready to Submit?</h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Join us in celebrating Arab cinema. Submit your film today and be part of Australia's premier Arab film
+                Join us in celebrating Arab cinema. Submit your film today and be part of Australia's premier international Arab film
                 festival.
               </p>
               <Button size="lg" className="uppercase tracking-wider">

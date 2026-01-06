@@ -13,7 +13,7 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="text-lg md:text-xl font-serif font-semibold tracking-wider">
-            Arab Film Festival of Australia
+            International Arab Film Festival of Australia
           </Link>
 
           {/* Desktop Navigation */}

@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-serif font-semibold mb-4">AFFA</h3>
+            <h3 className="text-2xl font-serif font-semibold mb-4">IAFFA</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Celebrating the richness and diversity of Arab cinema in Australia.
             </p>
@@ -75,7 +75,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2025 Arab Film Festival of Australia. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 International Arab Film Festival of Australia. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
