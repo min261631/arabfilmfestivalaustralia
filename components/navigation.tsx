@@ -1,48 +1,85 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useState } from "react"
-import { Menu, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import IFFA_LOGO1 from "@/public/IAFFA_LOGO1.png";
+import Image from "next/image";
 
 export function Navigation() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-lg md:text-xl font-serif font-semibold tracking-wider">
-            International Arab Film Festival of Australia
+        <div className="flex items-center justify-between h-20">
+          <Link
+            href="/"
+            className="text-lg md:text-xl font-serif font-semibold tracking-wider"
+          >
+            {/* International Arab Film Festival of Australia */}
+            <Image
+              src={IFFA_LOGO1}
+              alt="IAFFA Logo"
+              width={300}
+              className="h-14 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
-            <Link href="/about" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/about"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               About
             </Link>
-            <Link href="/program" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/program"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               Program
             </Link>
-            <Link href="/tickets" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/tickets"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               Tickets
             </Link>
-            <Link href="/awards" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/awards"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               Awards
             </Link>
-            <Link href="/submissions" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/submissions"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               Submissions
             </Link>
-            <Link href="/news" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/news"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               News
             </Link>
-            <Link href="/contact" className="text-sm uppercase tracking-wider hover:text-primary transition-colors">
+            <Link
+              href="/contact"
+              className="text-sm uppercase tracking-wider hover:text-primary transition-colors"
+            >
               Contact
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle menu">
+          <button
+            className="md:hidden"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -105,5 +142,5 @@ export function Navigation() {
         )}
       </div>
     </nav>
-  )
+  );
 }
